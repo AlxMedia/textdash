@@ -40,7 +40,7 @@ add_action( 'after_setup_theme', 'textdash_load' );
 /* ------------------------------------------------------------------------- */
 	
 	// Content width
-	if ( !isset( $content_width ) ) { $content_width = 740; }
+	if ( !isset( $content_width ) ) { $content_width = 700; }
 
 
 /*  Theme setup
@@ -75,8 +75,8 @@ if ( ! function_exists( 'textdash_setup' ) ) {
 		// Thumbnail sizes
 		add_image_size( 'textdash-small', 200, 200, true );
 		add_image_size( 'textdash-medium', 520, 293, true );
-		add_image_size( 'textdash-large', 670, 377, true );
-		add_image_size( 'textdash-large-h', 670 );
+		add_image_size( 'textdash-large', 880, 495, true );
+		add_image_size( 'textdash-large-h', 880 );
 		
 		// Thumbnail sizes custom widgets
 		add_image_size( 'alx-small', 200, 200, true );
