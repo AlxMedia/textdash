@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Textdash\n"
-"POT-Creation-Date: 2021-08-14 18:52+0200\n"
+"POT-Creation-Date: 2021-08-15 12:09+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -631,147 +631,155 @@ msgid "Turn on to use the styling options below"
 msgstr ""
 
 #: functions/theme-options.php:639
-msgid "Font"
+msgid "Social Sidebar"
 msgstr ""
 
 #: functions/theme-options.php:640
-msgid "Select font for the theme"
-msgstr ""
-
-#: functions/theme-options.php:644
-msgid "Titillium Web, Latin (Self-hosted)"
-msgstr ""
-
-#: functions/theme-options.php:645
-msgid "Titillium Web, Latin-Ext"
-msgstr ""
-
-#: functions/theme-options.php:646
-msgid "Droid Serif, Latin"
-msgstr ""
-
-#: functions/theme-options.php:647
-msgid "Source Sans Pro, Latin-Ext"
+msgid "Disable to hide the social and search sidebar"
 msgstr ""
 
 #: functions/theme-options.php:648
-msgid "Lato, Latin"
+msgid "Font"
 msgstr ""
 
 #: functions/theme-options.php:649
-msgid "Raleway, Latin"
-msgstr ""
-
-#: functions/theme-options.php:650
-msgid "Ubuntu, Latin-Ext"
-msgstr ""
-
-#: functions/theme-options.php:651
-msgid "Ubuntu, Latin / Cyrillic-Ext"
-msgstr ""
-
-#: functions/theme-options.php:652
-msgid "Roboto, Latin-Ext"
+msgid "Select font for the theme"
 msgstr ""
 
 #: functions/theme-options.php:653
-msgid "Roboto, Latin / Cyrillic-Ext"
+msgid "Titillium Web, Latin (Self-hosted)"
 msgstr ""
 
 #: functions/theme-options.php:654
-msgid "Roboto Condensed, Latin-Ext"
+msgid "Titillium Web, Latin-Ext"
 msgstr ""
 
 #: functions/theme-options.php:655
-msgid "Roboto Condensed, Latin / Cyrillic-Ext"
+msgid "Droid Serif, Latin"
 msgstr ""
 
 #: functions/theme-options.php:656
-msgid "Roboto Slab, Latin-Ext"
+msgid "Source Sans Pro, Latin-Ext"
 msgstr ""
 
 #: functions/theme-options.php:657
-msgid "Roboto Slab, Latin / Cyrillic-Ext"
+msgid "Lato, Latin"
 msgstr ""
 
 #: functions/theme-options.php:658
-msgid "Playfair Display, Latin-Ext"
+msgid "Raleway, Latin"
 msgstr ""
 
 #: functions/theme-options.php:659
-msgid "Playfair Display, Latin / Cyrillic"
+msgid "Ubuntu, Latin-Ext"
 msgstr ""
 
 #: functions/theme-options.php:660
-msgid "Open Sans, Latin-Ext"
+msgid "Ubuntu, Latin / Cyrillic-Ext"
 msgstr ""
 
 #: functions/theme-options.php:661
-msgid "Open Sans, Latin / Cyrillic-Ext"
+msgid "Roboto, Latin-Ext"
 msgstr ""
 
 #: functions/theme-options.php:662
-msgid "PT Serif, Latin-Ext"
+msgid "Roboto, Latin / Cyrillic-Ext"
 msgstr ""
 
 #: functions/theme-options.php:663
-msgid "PT Serif, Latin / Cyrillic-Ext"
+msgid "Roboto Condensed, Latin-Ext"
 msgstr ""
 
 #: functions/theme-options.php:664
-msgid "Arial"
+msgid "Roboto Condensed, Latin / Cyrillic-Ext"
 msgstr ""
 
 #: functions/theme-options.php:665
-msgid "Georgia"
+msgid "Roboto Slab, Latin-Ext"
 msgstr ""
 
 #: functions/theme-options.php:666
-msgid "Verdana"
+msgid "Roboto Slab, Latin / Cyrillic-Ext"
 msgstr ""
 
 #: functions/theme-options.php:667
-msgid "Tahoma"
+msgid "Playfair Display, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:668
+msgid "Playfair Display, Latin / Cyrillic"
+msgstr ""
+
+#: functions/theme-options.php:669
+msgid "Open Sans, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:670
+msgid "Open Sans, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:671
+msgid "PT Serif, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:672
+msgid "PT Serif, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:673
+msgid "Arial"
 msgstr ""
 
 #: functions/theme-options.php:674
-msgid "Header Logo Image Max-height"
+msgid "Georgia"
 msgstr ""
 
 #: functions/theme-options.php:675
+msgid "Verdana"
+msgstr ""
+
+#: functions/theme-options.php:676
+msgid "Tahoma"
+msgstr ""
+
+#: functions/theme-options.php:683
+msgid "Header Logo Image Max-height"
+msgstr ""
+
+#: functions/theme-options.php:684
 msgid ""
 "Your logo image should have the double height of this to be high resolution"
 msgstr ""
 
-#: functions/theme-options.php:688
+#: functions/theme-options.php:697
 msgid "Website Max-width"
 msgstr ""
 
-#: functions/theme-options.php:689
+#: functions/theme-options.php:698
 msgid "Max-width of the container."
 msgstr ""
 
-#: functions/theme-options.php:702
+#: functions/theme-options.php:711
 msgid "Article Max-width"
 msgstr ""
 
-#: functions/theme-options.php:703
+#: functions/theme-options.php:712
 msgid "Max-width of the articles."
 msgstr ""
 
-#: functions/theme-options.php:716
+#: functions/theme-options.php:725
 msgid "Primary Color"
 msgstr ""
 
-#: functions/theme-options.php:724
+#: functions/theme-options.php:733
 msgid "Secondary Color"
 msgstr ""
 
-#: functions/theme-options.php:732
+#: functions/theme-options.php:741
 msgid "Social Sidebar Color"
 msgstr ""
 
-#: functions/theme-options.php:740
+#: functions/theme-options.php:749
 msgid "Background Color"
 msgstr ""
 

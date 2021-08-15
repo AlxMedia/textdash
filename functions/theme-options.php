@@ -632,6 +632,15 @@ Kirki::add_field( 'textdash_theme', array(
 	'section'		=> 'styling',
 	'default'		=> 'on',
 ) );
+// Styling: Disable Social Sidebar
+Kirki::add_field( 'textdash_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'social-sidebar',
+	'label'			=> esc_html__( 'Social Sidebar', 'textdash' ),
+	'description'	=> esc_html__( 'Disable to hide the social and search sidebar', 'textdash' ),
+	'section'		=> 'styling',
+	'default'		=> 'on',
+) );
 // Styling: Font
 Kirki::add_field( 'textdash_theme', array(
 	'type'			=> 'select',
