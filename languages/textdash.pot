@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Textdash\n"
-"POT-Creation-Date: 2021-08-15 12:09+0200\n"
+"POT-Creation-Date: 2021-08-15 12:12+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -49,6 +49,10 @@ msgstr ""
 
 #: footer.php:66
 msgid "Powered by"
+msgstr ""
+
+#: footer.php:66
+msgid "https://wordpress.org"
 msgstr ""
 
 #: footer.php:66
