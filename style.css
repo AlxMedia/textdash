@@ -666,7 +666,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .s2 .social-links li { margin: 0 auto; padding: 4px 0; width: 100%; position: relative; }
 .s2 .social-links li:before { content:""; height: 1px; background: rgba(255,255,255,0.08); position: absolute; left: 30px; right: 30px; top: 0; }
 .s2 .social-links li:first-child:before { display: none; }
-.s2 .social-links .social-tooltip { background: transparent; color: rgba(255,255,255,0.5); border-radius: 40px; display: block; font-size: 24px; padding: 18px 10px; margin: 0 10px; }
+.s2 .social-links .social-tooltip { background: transparent; color: rgba(255,255,255,0.6); border-radius: 40px; display: block; font-size: 24px; padding: 18px 10px; margin: 0 10px; }
 .s2 .social-links .social-tooltip:hover { background: rgba(255,255,255,0.08); color: #fff; box-shadow: 0 1px 0 rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.1); text-decoration: none; }
 .s2 .social-links .social-tooltip:active {  }
 .s2 .social-links .social-tooltip:hover:after { background: #3d4e59; color: #fff; padding: 7px 10px; top: 14px; left: 50px; right: auto; }
@@ -698,7 +698,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 /*  header : search
 /* ------------------------------------ */
 .toggle-search { background: #027aff; border-radius: 30px; outline: none; margin: 0; border: 0; padding: 15px 0; margin: 10px; width: 60px; color: #3d4e59; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; display: block; }
-.toggle-search:focus { box-shadow: inset 0 0 20px rgba(0,0,0,0.1); }
+.toggle-search:focus { box-shadow: inset 0 0 20px rgba(0,0,0,0.2); }
 .toggle-search.active { background: #027aff; }
 .toggle-search.active i:before { content: "\f00d"; }
 .search-expand { display: none; background: #027aff; border-radius: 40px; padding: 11px 11px 11px 60px; position: absolute; top: 10px; left: 10px; width: 300px; z-index: 10; }
