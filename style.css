@@ -1,7 +1,7 @@
 /*
 Theme Name: Textdash
 Theme URI: http://alx.media/themes/textdash/
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -1551,6 +1551,6 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 /* ------------------------------------------------------------------------- */
 /* Text meant only for screen readers. */
 .screen-reader-text{ border: 0; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute!important; width: 1px; word-wrap: normal!important; }
-.screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #3d4e59; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; right: 5px; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
+.screen-reader-text:focus { background-color: #fff; border-radius: 3px; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1); clip: auto!important; clip-path: none; color: #3d4e59; display: block; font-size: 14px; font-size: 0.875rem; font-weight: bold; height: auto; right: 5px; left: auto; line-height: normal; padding: 15px 23px 14px; text-decoration: none; top: 5px; width: auto; z-index: 100000; }
 /* Do not show the outline on the skip link target. */
 #page[tabindex="-1"]:focus{ outline: 0; }

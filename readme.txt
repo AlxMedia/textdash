@@ -72,6 +72,8 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.2 - 2021-08-16 =
+* Fixed skip link
 
 = 1.0.1 - 2021-08-16 =
 * Fixed missing focus states for keyboard navigation

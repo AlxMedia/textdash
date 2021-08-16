@@ -65,7 +65,7 @@
 		
 		<?php endif; ?>
 		
-		<div class="main" id="page">
+		<div class="main">
 		
 			<?php if ( has_nav_menu('header') ): ?>
 				<div id="wrap-nav-header" class="wrap-nav">
@@ -79,4 +79,4 @@
 				</div>
 			<?php endif; ?>
 			
-			<div class="main-inner group">
+			<div class="main-inner group" id="page">
