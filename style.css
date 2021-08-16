@@ -1,7 +1,7 @@
 /*
 Theme Name: Textdash
 Theme URI: http://alx.media/themes/textdash/
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -903,6 +903,8 @@ body.search .type-page .type-list-left { display: none; }
 .slick-featured-nav .slick-next:hover,
 .slick-featured-nav .slick-prev:focus,
 .slick-featured-nav .slick-next:focus { background: #fff; }
+.slick-featured-nav .slick-prev:focus,
+.slick-featured-nav .slick-next:focus { opacity: 0.7; }
 .slick-featured-nav .slick-prev { left: 0; border-radius: 0 10px 10px 0; }
 .slick-featured-nav .slick-next { right: 0; border-radius: 10px 0 0 10px; }
 .slick-featured-nav .slick-prev:before { color: #027aff; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053"; }
