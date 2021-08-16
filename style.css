@@ -1,7 +1,7 @@
 /*
 Theme Name: Textdash
 Theme URI: http://alx.media/themes/textdash/
-Version: 1.0.0
+Version: 1.0.1
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.8
@@ -919,7 +919,8 @@ body.search .type-page .type-list-left { display: none; }
 .featured-date { color: #fff; font-size: 13px; opacity: 0.5; font-weight: 400; margin-top: 10px; }
 .featured-title { color: #fff; font-size: 42px; font-weight: 600; line-height: 1.3em; letter-spacing: -1px; }
 .featured-item:hover .featured-title { text-decoration: underline; }
-.featured-link { width: 100%; height: 100%; display: block; top: 0; left: 0; position: absolute; z-index: 5; opacity: 0 !important; color: transparent !important; }
+.featured-link { width: 100%; height: 100%; display: block; top: 0; left: 0; position: absolute; z-index: 5; opacity: 0; color: transparent!important; }
+.featured-link:focus { background: #fff; opacity: 0.2; }
 .featured-item .thumb-icon { background: #fff; color: #027aff; border-radius: 100%; top: 7px; right: 7px; bottom: auto; left: auto; }
 
 
@@ -927,6 +928,7 @@ body.search .type-page .type-list-left { display: none; }
 .post-comments > span { display: block; position: relative; padding: 4px 8px; }
 .post-comments > span:before { content:''; position: absolute; left: -12px; bottom: 7px; border-style: solid; border-width: 8px; border-color: transparent #fff transparent transparent; }
 .post-comments:hover { color: #027aff; padding-right: 4px; }
+.post-comments:focus { opacity: 0.6; }
 
 .slick-highlights-wrap-outer { display: none; /* before loading */ margin: 0 10px; }
 .slick-highlights-wrap {  }
@@ -938,6 +940,8 @@ body.search .type-page .type-list-left { display: none; }
 .slick-highlights-nav .slick-next:hover,
 .slick-highlights-nav .slick-prev:focus,
 .slick-highlights-nav .slick-next:focus { background: #d9ebff; }
+.slick-highlights-nav .slick-prev:focus,
+.slick-highlights-nav .slick-next:focus { opacity: 0.5; }
 .slick-highlights-nav .slick-prev { left: 0; }
 .slick-highlights-nav .slick-next { right: 0; }
 .slick-highlights-nav .slick-prev:before { color: #027aff; font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053"; }
@@ -953,10 +957,12 @@ body.search .type-page .type-list-left { display: none; }
 .highlights-date { color: #027aff; font-size: 13px; opacity: 0.4; font-weight: 400; margin-top: 10px; }
 .highlights-title { color: #027aff; font-size: 22px; font-weight: 600; line-height: 1.3em; }
 .highlights-item:hover .highlights-title { text-decoration: underline; }
-.highlights-link { width: 100%; height: 100%; display: block; top: 0; left: 0; position: absolute; z-index: 5; opacity: 0 !important; color: transparent !important; }
+.highlights-link { width: 100%; height: 100%; display: block; top: 0; left: 0; position: absolute; z-index: 5; opacity: 0; color: transparent!important; }
+.highlights-link:focus { background: #fff; opacity: 0.4; }
 .highlights-item .thumb-icon { background: #fff; color: #027aff; border-radius: 100%; top: 7px; right: 7px; bottom: auto; left: auto; }
 .highlights-item .post-comments { background: #027aff; color: #fff; }
 .highlights-item .post-comments > span:before { border-color: transparent #027aff transparent transparent; }
+.highlights-item .post-comments:focus { opacity: 0.6; }
 
 .slick-image-slide-wrapper { display: none; /* before loading */ position: relative; }
 .slick-image-slide { background: #333; }
