@@ -72,6 +72,9 @@ Sidebar images
 
 == Changelog ==
 
+= 1.0.6 - 2021-10-01 =
+* Added search button to mobile and tablet view
+
 = 1.0.5 - 2021-08-25 =
 * Added missing theme tags for wordpress.org
 
