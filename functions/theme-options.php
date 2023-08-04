@@ -584,7 +584,7 @@ Kirki::add_field( 'textdash_theme', array(
 	'label'			=> esc_html__( 'Create Social Links', 'textdash' ),
 	'description'	=> esc_html__( 'Create and organize your social links', 'textdash' ),
 	'section'		=> 'social',
-	'tooltip'		=> esc_html__( 'Font Awesome names:', 'textdash' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'textdash' ) . ' </strong></a>',
+	'tooltip'		=> esc_html__( 'Font Awesome names:', 'textdash' ) . ' <a href="https://fontawesome.com/search?o=r&m=free&f=brands" target="_blank"><strong>' . esc_html__( 'View All', 'textdash' ) . ' </strong></a>',
 	'row_label'		=> array(
 		'type'	=> 'text',
 		'value'	=> esc_html__('social link', 'textdash' ),
@@ -601,7 +601,7 @@ Kirki::add_field( 'textdash_theme', array(
 		'social-icon'	=> array(
 			'type'			=> 'text',
 			'label'			=> esc_html__( 'Icon Name', 'textdash' ),
-			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'textdash' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'textdash' ) . ' </strong></a>',
+			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'textdash' ) . ' <a href="https://fontawesome.com/search?o=r&m=free&f=brands" target="_blank"><strong>' . esc_html__( 'View All', 'textdash' ) . ' </strong></a>',
 			'default'		=> 'fa-',
 		),
 		'social-link'	=> array(
