@@ -74,6 +74,7 @@ Sidebar images
 
 = 1.0.9 - 2023-08-04 =
 * Updated to Font Awesome 6.4.2
+* Updated to Kirki 4.2.0
 
 = 1.0.8 - 2022-05-30 =
 * Fixed ol and ul box-sizing content-box styling for WP 6.0
